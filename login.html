@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness club</title>
+    <style> 
+    body{
+        background: url(images/asmt.jpg);
+        margin: 0%;
+        padding: 0;
+        color: white;
+    }
+    .top{
+        background-color: red;
+        color: black;
+        text-align: center;
+        padding: 20px;
+    }
+    #title{
+        font-size: 50px;
+    }
+
+    .head i{
+        margin-left: 300px;
+        display: block;
+        margin-top: -30px;
+
+    }
+    .mid {
+        border: 5px solid black;
+        display: block;
+        width: 38%;
+        margin: 10px auto;
+
+    }
+    .nav{
+        display: inline-block;
+    }
+    .nav li{
+        display: inline-block;
+        
+    } 
+    .nav li a{
+            text-decoration: none;
+            padding: 10px 5px;
+            font-size:18px;
+            color: rgb(246, 227, 197);
+        }
+        .nav a:hover,  .nav a:active {
+            color: rgb(86, 60, 203);
+        }
+    
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 20px;
+        top: 50px;
+        /* border: 2px solid black; */
+    }
+    .left img{
+        width: 50px;
+    }
+    .right{
+        display: inline-block;
+        position: absolute;
+        right: 20px;
+        top: 80px;
+        margin-right: 60px;
+
+    }
+    .btn{
+        padding: 3px 10px;
+        border-radius: 8px;
+        background-color: rgb(198, 93, 18);
+        cursor: pointer;
+        
+    }
+    .btn a{
+        text-decoration: none;
+        color: black;
+    }
+    .section{
+            border: 5px solid black;
+            text-align: center;
+            margin: 80px 250px;
+            padding: 40px 10px;
+        }
+        .section h2{
+            background-color: black;
+            padding: 30px 80px;
+        }
+        
+        .formgrp div{
+            margin: 30px;
+        }
+    .footer{
+            text-align: center;
+            background-color: red;
+            margin: 10px;
+            padding: 15px;
+        }
+        .footer a{
+            color: navy;
+            padding: 5px;
+        }
+        .footer a:hover,  .footer a:active {
+            color: rgb(74, 203, 60);
+        }
+       
+       
+
+
+    </style>
+</head>
+<body>
+    <header class="top">
+        <div class="head">
+            <h1>Fitness Club</h1>
+            <i><strong> the power arena...</strong></i>
+            <div class="mid">
+                <ul class="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Nutrition</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+                <div class="left">
+                    <img src="images/logo2.png" alt="logo">
+                    <div><strong> Fitness Club</strong></div>
+        </div>
+        <div class="right">
+            <button class="btn">logout</button>
+        </div>
+    </header>
+
+    <section class="section">
+        <form action="maingym.html">
+        <h2>please login for explore more...</h2>
+        <div class="formgrp">
+            <div><label for="Email">Email:</label>
+                <input type="email" name="Email" id="email" placeholder="Enter your Email" required></div>
+                <div>
+                    <label for="pwd">Password:</label>
+                    <input type="password" name="pwd" id="pwd" placeholder="Choose password" required>
+                </div>
+                <div><button class="btn">Login</button></div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <h1>Copyright &copy 2022 Fitness Club. All Right Reserved</h1>
+            <i>For more details you can visit at:</i>
+            <a href="https://www.google.com/" target="blank">Google</a>
+            <a href="https://www.instagram.com/">Instagram</a>
+            <a href="https://www.Facebook.com/">Facebook</a>
+            <a href="https://www.twitter.com/">Twitter</a>
+        </div>
+    </footer>
+</body>
+</html>
